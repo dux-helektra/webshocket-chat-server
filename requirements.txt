@@ -1,5 +1,5 @@
 msgspec==0.20.0
 multidict==6.7.1
 picows==1.11.1
-webshocket @ file:///C:/Users/Administrator/Documents/brat-workspace/wsh-chat-server/webshocket
+webshocket @ git+https://github.com/floydous/webshocket.git
 websockets==16.0
