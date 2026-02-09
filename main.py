@@ -95,7 +95,7 @@ class clientHandler(webshocket.WebSocketHandler):
 
 async def main() -> None:
     server = webshocket.websocket.server(
-        "127.0.0.1",
+        "0.0.0.0",
         5000,
         clientHandler=clientHandler,
     )
